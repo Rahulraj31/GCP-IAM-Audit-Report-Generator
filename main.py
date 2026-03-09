@@ -5,8 +5,8 @@ from google.cloud import asset_v1
 from google.cloud import bigquery
 
 # --- CONFIGURATION ---
-ORG_ID = "515525278627" 
-PROJECT_ID = "rahul-research-test" 
+ORG_ID = "<ORG ID>" 
+PROJECT_ID = "<PROJECT ID>" 
 DATASET_ID = "iam_audit_dataset"
 RAW_TABLE = f"{PROJECT_ID}.{DATASET_ID}.raw_iam_data"
 FINAL_TABLE = f"{PROJECT_ID}.{DATASET_ID}.final_monthly_report"
