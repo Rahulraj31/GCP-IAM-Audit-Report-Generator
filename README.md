@@ -89,7 +89,7 @@ The final generated CSV report includes the following columns, designed specific
 | **Column**                        | **Description**                                                 |
 | :-------------------------------: | :-------------------------------------------------------------: |
 | **SL\_No**                        | Audit index (1, 2, 3...) for the entire report from BQ.         |
-| **Project\_Name**                 | The human-readable Display ID of the project.                   |
+| **Project\_ID**                 | The human-readable Display ID of the project.                     |
 | **Roles**                         | The full IAM role string.                                       |
 | **Nos**                           | Total count of distinct members holding that role.              |
 | **Associated\_Users**             | Comma-separated list of human email addresses.                  |
