@@ -13,6 +13,9 @@ The system utilizes a cost-effective, serverless architecture.
 3.  **BigQuery**: Serves as the transformation engine, joining raw IAM policies with project metadata to generate human-readable reports.
 4.  **Cloud Storage**: Stores the final timestamped CSV report, which is ready for audit purposes.
 
+> [!NOTE]
+> The `main.py` and `requirements.txt` files contain the core Python logic and dependencies required for the **Cloud Run Function**.
+
 ## Prerequisites & Permissions
 
 A custom Service Account (`iam-auditor-sa`) must be created to ensure the principle of least privilege is followed.
