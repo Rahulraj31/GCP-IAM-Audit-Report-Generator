@@ -1,0 +1,6 @@
+functions-framework==3.*
+google-cloud-asset
+google-cloud-bigquery
+google-api-python-client
+google-auth
+flask
